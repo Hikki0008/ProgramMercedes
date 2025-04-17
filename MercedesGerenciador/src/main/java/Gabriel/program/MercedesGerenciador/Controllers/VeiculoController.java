@@ -1,9 +1,10 @@
 package Gabriel.program.MercedesGerenciador.Controllers;
 
 import Gabriel.program.MercedesGerenciador.Veiculos.Veiculo;
-import Gabriel.program.MercedesGerenciador.Veiculos.VeiculoService;
 import Gabriel.program.MercedesGerenciador.Veiculos.VeiculoRequest;
 import Gabriel.program.MercedesGerenciador.Veiculos.VeiculoResponse;
+import Gabriel.program.MercedesGerenciador.Servicos.*;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

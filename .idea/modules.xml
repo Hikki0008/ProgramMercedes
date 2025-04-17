@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MercedesGerenciador.iml" filepath="$PROJECT_DIR$/.idea/MercedesGerenciador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MercedesGerenciador/MercedesGerenciador.iml" filepath="$PROJECT_DIR$/MercedesGerenciador/MercedesGerenciador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProgramMercedes.iml" filepath="$PROJECT_DIR$/.idea/ProgramMercedes.iml" />
     </modules>
   </component>
 </project>

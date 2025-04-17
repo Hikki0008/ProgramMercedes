@@ -1,7 +1,8 @@
 package Gabriel.program.MercedesGerenciador.Controllers;
 
 import Gabriel.program.MercedesGerenciador.Veiculos.Veiculo;
-import Gabriel.program.MercedesGerenciador.Veiculos.VeiculoService;
+import Gabriel.program.MercedesGerenciador.Servicos.*;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -67,7 +68,7 @@ public class ConsoleController {
         veiculo.setTipo(tipo);
 
         veiculoService.cadastrar(veiculo);
-        System.out.println("✅ Veículo cadastrado com sucesso!");
+        System.out.println("Veículo cadastrado com sucesso!");
     }
 
     private void listarVeiculos() {
